@@ -14,9 +14,9 @@ Summary: HTTP library with thread-safe connection pooling, file post, and more.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/urllib3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/urllib3-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/urllib3-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/urllib3-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/urllib3-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/urllib3-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tmpbw9yrz0j-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tmpbw9yrz0j-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/tmpbw9yrz0j-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tmpbw9yrz0j-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tmpbw9yrz0j-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tmpbw9yrz0j-feedstock/branch/master)
 
 Current release info
 ====================
