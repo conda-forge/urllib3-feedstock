@@ -3,7 +3,7 @@
 {% set compress_type = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "d0f08f1472754890c8b228106eb831a7a68c93565bd0818936c30bb839913647" %}
-{% set build_num %}
+{% set build = 0 %}
 
 package:
   name: {{ name|lower }}
