@@ -14,14 +14,16 @@ Summary: HTTP library with thread-safe connection pooling, file post, and more.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/urllib3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/urllib3-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/urllib3-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/urllib3-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/urllib3-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/urllib3-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/urllib3-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/urllib3-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/urllib3-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/urllib3-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/urllib3-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/urllib3-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/urllib3/badges/version.svg)](https://anaconda.org/conda-forge/urllib3)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/urllib3/badges/downloads.svg)](https://anaconda.org/conda-forge/urllib3)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-urllib3-green.svg)](https://anaconda.org/conda-forge/urllib3) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/urllib3.svg)](https://anaconda.org/conda-forge/urllib3) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/urllib3.svg)](https://anaconda.org/conda-forge/urllib3) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/urllib3.svg)](https://anaconda.org/conda-forge/urllib3) |
 
 Installing urllib3
 ==================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
