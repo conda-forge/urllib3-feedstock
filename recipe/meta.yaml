@@ -1,4 +1,4 @@
-{% set version = "1.25.2" %}
+{% set version = "1.24.3" %}
 
 package:
   name: urllib3
