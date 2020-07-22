@@ -5,7 +5,7 @@ Home: https://urllib3.readthedocs.io/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: HTTP library with thread-safe connection pooling, file post, and more.
 
