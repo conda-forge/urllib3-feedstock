@@ -5,11 +5,13 @@ Home: https://urllib3.readthedocs.io/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/urllib3-feedstock/blob/master/LICENSE.txt)
 
 Summary: HTTP library with thread-safe connection pooling, file post, and more.
 
+Development: https://github.com/shazow/urllib3
 
+Documentation: https://urllib3.readthedocs.io/
 
 Current build status
 ====================
