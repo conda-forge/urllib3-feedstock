@@ -55,6 +55,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - sigmavirus24
-    - ocefpaf
+    - shazow
     - sethmlarson
