@@ -120,7 +120,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@ocefpaf](https://github.com/ocefpaf/)
+* [@shazow](https://github.com/shazow/)
 * [@sethmlarson](https://github.com/sethmlarson/)
-* [@sigmavirus24](https://github.com/sigmavirus24/)
-
