@@ -1,11 +1,11 @@
-About urllib3
-=============
+About urllib3-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/urllib3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://urllib3.readthedocs.io/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/urllib3-feedstock/blob/main/LICENSE.txt)
 
 Summary: HTTP library with thread-safe connection pooling, file post, and more.
 
