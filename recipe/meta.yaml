@@ -32,8 +32,6 @@ test:
   imports:
     - urllib3
     - urllib3.contrib
-    - urllib3.packages
-    - urllib3.packages.backports
     - urllib3.util
   commands:
     - pip check
