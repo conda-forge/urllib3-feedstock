@@ -22,12 +22,6 @@ requirements:
     - pip
   run:
     - python >=3.7
-    # optional deps [secure]
-    - pyopenssl >=17.1.0
-    - cryptography >=1.9
-    - idna >=2.0.0
-    - certifi
-    - urllib3-secure-extra
     # optional deps [socks]
     - pysocks >=1.5.6,<2.0,!=1.5.7
     # optional deps [brotli]
