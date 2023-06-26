@@ -25,7 +25,7 @@ requirements:
     # optional deps [socks]
     - pysocks >=1.5.6,<2.0,!=1.5.7
     # optional deps [brotli]
-    - brotlipy >=1.0.9
+    - brotli-python >=1.0.9
 
 
 test:
