@@ -1,5 +1,5 @@
 {% set name = "urllib3" %}
-{% set version = "2.0.5" %}
+{% set version = "1.26.16" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/urllib3-{{ version }}.tar.gz
-  sha256: 13abf37382ea2ce6fb744d4dad67838eec857c9f4f57009891805e0b5e123594
+  sha256: 8f135f6502756bde6b2a9b28989df5fbe87c9970cecaa69041edcce7f0589b14
 
 build:
   number: 0
