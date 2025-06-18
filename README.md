@@ -153,6 +153,3 @@ Feedstock Maintainers
 * [@sethmlarson](https://github.com/sethmlarson/)
 * [@shazow](https://github.com/shazow/)
 
-
-<!-- dummy commit to enable rerendering -->
-
