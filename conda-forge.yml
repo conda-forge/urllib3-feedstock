@@ -1,3 +1,5 @@
+conda_build_tool: rattler-build
+
 provider: {linux_aarch64: azure, linux_ppc64le: azure, win: azure}
 bot:
   inspection: update-grayskull
