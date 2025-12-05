@@ -9,7 +9,7 @@ Package license: MIT
 
 Summary: HTTP library with thread-safe connection pooling, file post, and more.
 
-Development: https://github.com/shazow/urllib3
+Development: https://github.com/urllib3/urllib3
 
 Documentation: https://urllib3.readthedocs.io/
 
