@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: urllib3
-  version: "2.5.0"
+  version: "2.6.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/urllib3-${{ version }}.tar.gz
-  sha256: 3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760
+  sha256: 5379eb6e1aba4088bae84f8242960017ec8d8e3decf30480b3a1abdaa9671a3f
 
 build:
   number: 1
@@ -20,17 +20,18 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - hatchling >=1.6.0,<2
-    - hatch-vcs ==0.4.0
+    - hatchling >=1.27.0,<2
+    - hatch-vcs >=0.4.0,<0.6.0
+    - setuptools_scm >=8,<10
     - pip
   run:
     - python >=${{ python_min }}
     # optional deps [socks]
     - pysocks >=1.5.6,<2.0,!=1.5.7
     # optional deps [brotli]
-    - brotli-python >=1.0.9
-    # optional deps [zstandard]
-    - zstandard >=0.18.0
+    - brotli-python >=1.2.0
+    # optional deps [backports.zstd]
+    - backports.zstd >=1.0.0
     # optional deps [h2]
     - h2 >=4,<5
 
