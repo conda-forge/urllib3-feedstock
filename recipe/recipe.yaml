@@ -1,29 +1,31 @@
-{% set name = "urllib3" %}
-{% set version = "2.6.1" %}
+schema_version: 1
 
+context:
+  name: urllib3
+  version: "2.6.1"
 
 package:
-  name: {{ name|lower }}
-  version: {{ version }}
+  name: ${{ name|lower }}
+  version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/urllib3-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/urllib3-${{ version }}.tar.gz
   sha256: 5379eb6e1aba4088bae84f8242960017ec8d8e3decf30480b3a1abdaa9671a3f
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python ${{ python_min }}.*
     - hatchling >=1.27.0,<2
     - hatch-vcs >=0.4.0,<0.6.0
     - setuptools_scm >=8,<10
     - pip
   run:
-    - python >={{ python_min }}
+    - python >=${{ python_min }}
     # optional deps [socks]
     - pysocks >=1.5.6,<2.0,!=1.5.7
     # optional deps [brotli]
@@ -33,26 +35,22 @@ requirements:
     # optional deps [h2]
     - h2 >=4,<5
 
-
-test:
-  imports:
-    - urllib3
-    - urllib3.contrib
-    - urllib3.util
-  commands:
-    - pip check
-  requires:
-    - pip
-    - python {{ python_min }}
+tests:
+  - python:
+      python_version: ${{ python_min }}.*
+      imports:
+        - urllib3
+        - urllib3.contrib
+        - urllib3.util
+      pip_check: true
 
 about:
-  home: https://urllib3.readthedocs.io/
+  homepage: https://urllib3.readthedocs.io/
   license: MIT
-  license_family: MIT
   license_file: LICENSE.txt
   summary: HTTP library with thread-safe connection pooling, file post, and more.
-  doc_url: https://urllib3.readthedocs.io/
-  dev_url: https://github.com/urllib3/urllib3
+  documentation: https://urllib3.readthedocs.io/
+  repository: https://github.com/urllib3/urllib3
 
 extra:
   recipe-maintainers:
