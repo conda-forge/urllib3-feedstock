@@ -50,7 +50,7 @@ about:
   license_file: LICENSE.txt
   summary: HTTP library with thread-safe connection pooling, file post, and more.
   documentation: https://urllib3.readthedocs.io/
-  repository: https://github.com/shazow/urllib3
+  repository: https://github.com/urllib3/urllib3
 
 extra:
   recipe-maintainers:
