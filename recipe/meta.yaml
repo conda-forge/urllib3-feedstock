@@ -20,7 +20,7 @@ requirements:
     - python {{ python_min }}
     - hatchling >=1.27.0,<2
     - hatch-vcs >=0.4.0,<0.6.0
-    - setuptools_scm >=8,<10
+    - setuptools_scm >=8,<11
     - pip
   run:
     - python >={{ python_min }}
