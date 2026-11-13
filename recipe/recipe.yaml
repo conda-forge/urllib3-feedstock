@@ -42,10 +42,8 @@ outputs:
   - package:
       name: urllib3-brotli
     build:
-      noarch: python
+      noarch: generic
     requirements:
-      host:
-        - python ${{ python_min }}.*
       run:
         - ${{ pin_subpackage("urllib3", exact=True) }}
         - brotli-python >=1.2.0
@@ -56,10 +54,8 @@ outputs:
   - package:
       name: urllib3-zstd
     build:
-      noarch: python
+      noarch: generic
     requirements:
-      host:
-        - python ${{ python_min }}.*
       run:
         - ${{ pin_subpackage("urllib3", exact=True) }}
         #  Drop when python_min = 3.14
@@ -71,10 +67,8 @@ outputs:
   - package:
       name: urllib3-socks
     build:
-      noarch: python
+      noarch: generic
     requirements:
-      host:
-        - python ${{ python_min }}.*
       run:
         - ${{ pin_subpackage("urllib3", exact=True) }}
         - pysocks >=1.5.6,<2.0,!=1.5.7
@@ -85,10 +79,8 @@ outputs:
   - package:
       name: urllib3-h2
     build:
-      noarch: python
+      noarch: generic
     requirements:
-      host:
-        - python ${{ python_min }}.*
       run:
         - ${{ pin_subpackage("urllib3", exact=True) }}
         - h2 >=4,<5
