@@ -3,7 +3,7 @@ About urllib3-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/urllib3-feedstock/blob/main/LICENSE.txt)
 
-Home: https://urllib3.readthedocs.io/
+Home: https://pypi.org/project/urllib3/
 
 Package license: MIT
 
@@ -33,6 +33,10 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-urllib3-green.svg)](https://anaconda.org/conda-forge/urllib3) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/urllib3.svg)](https://anaconda.org/conda-forge/urllib3) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/urllib3.svg)](https://anaconda.org/conda-forge/urllib3) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/urllib3.svg)](https://anaconda.org/conda-forge/urllib3) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-urllib3--brotli-green.svg)](https://anaconda.org/conda-forge/urllib3-brotli) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/urllib3-brotli.svg)](https://anaconda.org/conda-forge/urllib3-brotli) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/urllib3-brotli.svg)](https://anaconda.org/conda-forge/urllib3-brotli) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/urllib3-brotli.svg)](https://anaconda.org/conda-forge/urllib3-brotli) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-urllib3--h2-green.svg)](https://anaconda.org/conda-forge/urllib3-h2) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/urllib3-h2.svg)](https://anaconda.org/conda-forge/urllib3-h2) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/urllib3-h2.svg)](https://anaconda.org/conda-forge/urllib3-h2) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/urllib3-h2.svg)](https://anaconda.org/conda-forge/urllib3-h2) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-urllib3--socks-green.svg)](https://anaconda.org/conda-forge/urllib3-socks) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/urllib3-socks.svg)](https://anaconda.org/conda-forge/urllib3-socks) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/urllib3-socks.svg)](https://anaconda.org/conda-forge/urllib3-socks) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/urllib3-socks.svg)](https://anaconda.org/conda-forge/urllib3-socks) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-urllib3--zstd-green.svg)](https://anaconda.org/conda-forge/urllib3-zstd) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/urllib3-zstd.svg)](https://anaconda.org/conda-forge/urllib3-zstd) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/urllib3-zstd.svg)](https://anaconda.org/conda-forge/urllib3-zstd) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/urllib3-zstd.svg)](https://anaconda.org/conda-forge/urllib3-zstd) |
 
 Installing urllib3
 ==================
@@ -51,7 +55,7 @@ How to use
 <summary>With conda</summary>
 
 ```
-conda install urllib3
+conda install urllib3 urllib3-brotli urllib3-h2 urllib3-socks urllib3-zstd
 ```
 
 </details>
@@ -60,7 +64,7 @@ conda install urllib3
 <summary>With mamba</summary>
 
 ```
-mamba install urllib3
+mamba install urllib3 urllib3-brotli urllib3-h2 urllib3-socks urllib3-zstd
 ```
 
 </details>
@@ -70,9 +74,9 @@ mamba install urllib3
 
 ```
 # for adding to your local project
-pixi add urllib3
+pixi add urllib3 urllib3-brotli urllib3-h2 urllib3-socks urllib3-zstd
 # for installing globally
-pixi global install urllib3
+pixi global install urllib3 urllib3-brotli urllib3-h2 urllib3-socks urllib3-zstd
 ```
 
 </details>
@@ -126,6 +130,7 @@ mamba repoquery depends urllib3 --channel conda-forge
 </details>
 
 
+
 About conda-forge
 =================
 
@@ -140,9 +145,7 @@ for each of the installable packages. Such a repository is known as a *feedstock
 A feedstock is made up of a conda recipe (the instructions on what and how to build
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
-[Azure](https://azure.microsoft.com/en-us/services/devops/), [GitHub](https://github.com/),
-[CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
-[Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
+[Azure](https://azure.microsoft.com/en-us/services/devops/) and [GitHub](https://github.com/)
 it is possible to build and upload installable packages to the
 [conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
